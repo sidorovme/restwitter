@@ -21,17 +21,22 @@ $ pip install -r requirements.txt
 
 ## DB Migrations
 
-To generate migration execute 
+To generate migration please execute
 ```
 $ python3 manage.py makemigrations
 ```
 
-To run migrations execute 
+To run migrations please execute
 ```
 $ python3 manage.py migrate
 ```
 
-To run tests execute
+To run tests please execute
 ```
 $ python3 manage.py test
+```
+
+To start web app please execute
+```
+$ python3 manage.py runserver <desired_interface_ip:desired_port>
 ```
